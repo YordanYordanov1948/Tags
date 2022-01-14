@@ -1,13 +1,11 @@
 import React from "react";
 
-function Tags() {
-  const arr = ["boomdotdev", "task", "tags", "react"];
+function Tags(props) {
   return (
     <div className="tags">
-      <li className="tag">#{arr[0]}</li>
-      <li className="tag">#{arr[1]}</li>
-      <li className="tag">#{arr[2]}</li>
-      <li className="tag">#{arr[3]}</li>
+      {props.tags.map((tag) => {
+        return <li className="tag">#{tag}</li>;
+      })}
     </div>
   );
 }
