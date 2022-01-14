@@ -12,7 +12,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          <Tags />
+          <Tags tags={["boomdotdev", "task", "tags", "react"]} />{" "}
         </div>
       </div>
     </div>
