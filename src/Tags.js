@@ -3,7 +3,7 @@ import React from "react";
 function Tags() {
   const arr = ["boomdotdev", "task", "tags", "react"];
   return (
-    <div className="Tags">
+    <div className="tags">
       <li className="tag">#{arr[0]}</li>
       <li className="tag">#{arr[1]}</li>
       <li className="tag">#{arr[2]}</li>
